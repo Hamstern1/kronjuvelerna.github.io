@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kronjuvelerna</title>
+	<link rel= 'stylesheet' type= 'text/css' href= 'style.css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+<div id="main">
+	<div class="grid-container">
+		<div>
+			<button id="openButton" onclick="openNav()" >☰</button>
+		</div>
+		<div>
+			<header>
+				<h1>Stora Juvelen</h1>
+			</header>
+		</div>
+		<div>
+		
+			<form action= "">
+				<input type= "text" placeholder= "Search.." name= "search">
+				<button type= "submit"><i class= "fa fa-search"></i></button>
+			</form>
+		
+		</div>
+	</div>
+	<div id= "banner">
+		<div><p>Fri Frakt över 500kr</p></div>
+		<div><p>Öppet köp i 14 dagar</p></div>
+	</div>
+	<div class= "slider">
+		<div class= "slides">
+			
+			<input type= "radio" name= "radio-btn" id= "radio1">
+			<input type= "radio" name= "radio-btn" id= "radio2">
+			<input type= "radio" name= "radio-btn" id= "radio3">
+			
+			<div class= "slide first">
+				<img src= "wedding.jpg" alt= "">
+			</div>
+			<div class="slide">
+				<img src= "party.jpg" alt= "">
+			</div>
+			<div class="slide">
+				<img src= "biggie.jpg" alt= "">
+			</div>
+			
+			<div class= "navigation-auto">
+				<div class= "auto-btn1"></div>
+				<div class= "auto-btn2"></div>
+				<div class= "auto-btn3"></div>
+			</div>
+		</div>
+		
+		<div class= "navigation-manual">
+			<label for= "radio1" class= "manual-btn"></label>
+			<label for= "radio2" class= "manual-btn"></label>
+			<label for= "radio3" class= "manual-btn"></label>
+		</div>
+	</div>
+	<div id = "nyheter">
+		<h2>Nyheter</h3>
+	</div>
+	
+	<div class= "grid-container2">
+		
+		<div class="shop-item" onClick="productWindow()">
+		
+			<img src="crown.jpg" alt="St. Edwards krona" style="width:100%">
+			<h1>St. Edwards krona</h1>
+			<p class="price">$19.99</p>
+			<p>Lorem Impsum deez</p>
+			<p><button>Add to Cart</button></p>
+			
+		</div>
+		<div class="shop-item" onClick="productWindow()">
+		
+			<img src="crown.jpg" alt="St. Edwards krona" style="width:100%">
+			<h1>St. Edwards krona</h1>
+			<p class="price">$19.99</p>
+			<p>Lorem Impsum deez</p>
+			<p><button>Add to Cart</button></p>
+		
+		</div>
+		<div class="shop-item" onClick="productWindow()">
+		
+			<img src="crown.jpg" alt="St. Edwards krona" style="width:100%">
+			<h1>St. Edwards krona</h1>
+			<p class="price">$19.99</p>
+			<p>Lorem Impsum deez</p>
+			<p><button>Add to Cart</button></p>
+			
+		</div>
+		<div class="shop-item" onClick="productWindow()">
+		
+			<img src="crown.jpg" alt="St. Edwards krona" style="width:100%">
+			<h1>St. Edwards krona</h1>
+			<p class="price">$19.99</p>
+			<p>Lorem Impsum deez</p>
+			<p><button>Add to Cart</button></p>
+		
+		</div>
+		<div class="shop-item" onClick="productWindow()">
+		
+			<img src="crown.jpg" alt="St. Edwards krona" style="width:100%">
+			<h1>St. Edwards krona</h1>
+			<p class="price">$19.99</p>
+			<p>Lorem Impsum deez</p>
+			<p><button>Add to Cart</button></p>
+		
+		</div>
+		<div class="shop-item" onClick="productWindow()">
+		
+			<img src="crown.jpg" alt="St. Edwards krona" style="width:100%">
+			<h1>St. Edwards krona</h1>
+			<p class="price">$19.99</p>
+			<p>Lorem Impsum deez</p>
+			<p><button>Add to Cart</button></p>
+		
+		</div>
+		
+	</div>
+	
+	<div id ="product">
+		<img src= "crown.jpg" alt="St. Edwards krona">
+		<p>Donec lacus dui, euismod et posuere vel, dictum id nibh. Aenean id dolor non velit fringilla euismod ut eget magna. Integer elementum placerat magna eu dapibus.</p>
+		<p><button>Add to Cart</button></p>
+		
+	</div>
+</div>
+	<div id="sidebar">
+		<a href= "#" class= "closeButton" onclick= "closeNav()">x</a>
+		<a href= "main.html">Main</a>
+		<a href= "info.html">Om oss</a>
+		<a href= "#">Policy</a>
+		<a href= "#">Kontakt</a>
+	</div>
+	
+	<footer>
+			
+			<p>© 2023 Alvar the man.</p>
+		
+	</footer>
+</body>
+<script src="script.js"></script>
+</html>
